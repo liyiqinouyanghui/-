@@ -20,7 +20,7 @@ with st.sidebar:
     
     st.write("扫码分享给同学：")
     # 这里填入你的公网链接，目前先用演示链接
-    url = "https://heartwisdom.streamlit.app/"
+    url = "https://2soontest.streamlit.app/"
     
     # 生成二维码
     qr = qrcode.QRCode(version=1, box_size=10, border=4)
